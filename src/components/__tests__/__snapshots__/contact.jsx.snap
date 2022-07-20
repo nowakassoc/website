@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        id="section-contact"
+      >
+        <div
+          class="contact-header"
+        >
+          <span
+            class="section-link"
+            id="contact"
+          />
+          <h2>
+            Contact Nowak & Associates
+          </h2>
+        </div>
+        <div
+          class="contact-left-col"
+        >
+          <address>
+            <strong>
+              Address:
+            </strong>
+            <br />
+            Martin C. Nowak
+            <br />
+            President
+            <br />
+            Nowak and Associates, Inc.
+            <br />
+            309 Tutwiller Drive
+            <br />
+            Trussville, Alabama 35173
+          </address>
+        </div>
+        <div
+          class="contact-right-col"
+        >
+          <address>
+            <strong>
+              Phone:
+            </strong>
+            <br />
+            <a
+              href="tel:+205-520-4336"
+            >
+              (205) 520-4336
+            </a>
+            <br />
+            <br />
+            <strong>
+              Email:
+            </strong>
+            <br />
+            <a
+              href="mailto:martinnowak@charter.net"
+            >
+              martinnowak@charter.net
+            </a>
+          </address>
+        </div>
+        <div
+          class="contact-form-col"
+        >
+          <form
+            data-netlify="true"
+            id="form-contact"
+            method="POST"
+            name="form-contact"
+          >
+            <fieldset>
+              <label
+                for="name"
+              >
+                Name
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required=""
+                  type="text"
+                />
+              </label>
+            </fieldset>
+            <fieldset>
+              <label
+                for="organization"
+              >
+                Organization
+                <input
+                  id="organization"
+                  name="organization"
+                  placeholder="Your Organization"
+                  type="text"
+                />
+              </label>
+            </fieldset>
+            <fieldset>
+              <label
+                for="email"
+              >
+                E-mail
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Your E-mail"
+                  required=""
+                  type="email"
+                />
+              </label>
+            </fieldset>
+            <fieldset>
+              <label
+                for="phone"
+              >
+                Phone
+                <input
+                  id="phone"
+                  name="phone"
+                  placeholder="Your Phone Number (optional)"
+                  type="tel"
+                />
+              </label>
+            </fieldset>
+            <fieldset>
+              <label
+                for="message"
+              >
+                Message
+                <textarea
+                  cols="22"
+                  id="message"
+                  name="message"
+                  placeholder="Type your message here...."
+                  required=""
+                  rows="5"
+                  wrap="virtual"
+                />
+              </label>
+            </fieldset>
+            <button
+              id="form-contact-submit"
+              name="form-contact-submit"
+              type="submit"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-envelope fa-w-16 icon-contact"
+                data-icon="envelope"
+                data-prefix="far"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+                  fill="currentColor"
+                />
+              </svg>
+               
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      id="section-contact"
+    >
+      <div
+        class="contact-header"
+      >
+        <span
+          class="section-link"
+          id="contact"
+        />
+        <h2>
+          Contact Nowak & Associates
+        </h2>
+      </div>
+      <div
+        class="contact-left-col"
+      >
+        <address>
+          <strong>
+            Address:
+          </strong>
+          <br />
+          Martin C. Nowak
+          <br />
+          President
+          <br />
+          Nowak and Associates, Inc.
+          <br />
+          309 Tutwiller Drive
+          <br />
+          Trussville, Alabama 35173
+        </address>
+      </div>
+      <div
+        class="contact-right-col"
+      >
+        <address>
+          <strong>
+            Phone:
+          </strong>
+          <br />
+          <a
+            href="tel:+205-520-4336"
+          >
+            (205) 520-4336
+          </a>
+          <br />
+          <br />
+          <strong>
+            Email:
+          </strong>
+          <br />
+          <a
+            href="mailto:martinnowak@charter.net"
+          >
+            martinnowak@charter.net
+          </a>
+        </address>
+      </div>
+      <div
+        class="contact-form-col"
+      >
+        <form
+          data-netlify="true"
+          id="form-contact"
+          method="POST"
+          name="form-contact"
+        >
+          <fieldset>
+            <label
+              for="name"
+            >
+              Name
+              <input
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required=""
+                type="text"
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label
+              for="organization"
+            >
+              Organization
+              <input
+                id="organization"
+                name="organization"
+                placeholder="Your Organization"
+                type="text"
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label
+              for="email"
+            >
+              E-mail
+              <input
+                id="email"
+                name="email"
+                placeholder="Your E-mail"
+                required=""
+                type="email"
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label
+              for="phone"
+            >
+              Phone
+              <input
+                id="phone"
+                name="phone"
+                placeholder="Your Phone Number (optional)"
+                type="tel"
+              />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label
+              for="message"
+            >
+              Message
+              <textarea
+                cols="22"
+                id="message"
+                name="message"
+                placeholder="Type your message here...."
+                required=""
+                rows="5"
+                wrap="virtual"
+              />
+            </label>
+          </fieldset>
+          <button
+            id="form-contact-submit"
+            name="form-contact-submit"
+            type="submit"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-envelope fa-w-16 icon-contact"
+              data-icon="envelope"
+              data-prefix="far"
+              focusable="false"
+              role="img"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"
+                fill="currentColor"
+              />
+            </svg>
+             
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

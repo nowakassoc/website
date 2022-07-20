@@ -1,0 +1,638 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Publications renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        id="section-publications"
+      >
+        <span
+          class="section-link"
+          id="publications"
+        />
+        <h2>
+          Publications
+        </h2>
+        <ol
+          class="publications-list"
+        >
+          <li>
+            Michael, Max and Nowak, Martin; “Fulfilling Historic Commitments and Obligations - A Proposal for a 21st Century Health System for Jefferson County, Alabama.”
+             
+            <time
+              datetime="2012"
+            >
+              Spring 2012
+            </time>
+            .
+            <br />
+            <a
+              href="http://media.al.com/bn/other/Michael-Nowak-report-0902-12.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+                data-icon="external-link-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                  fill="currentColor"
+                />
+              </svg>
+              Available from al.com
+            </a>
+          </li>
+          <li>
+            Nowak, Martin C.; “Practitioner Response”, in:
+            <br />
+            Landry, Amy and Landry, Robert J.; “Factors Associated with Hospital Bankruptcies: A Political and Economic Framework”; 
+            <cite>
+              Journal of Healthcare Management
+            </cite>
+            ; Volume 54, Number 4, 
+            <time
+              datetime="2009"
+            >
+              July / August, 2009
+            </time>
+            .
+            <br />
+            <a
+              href="https://www.ncbi.nlm.nih.gov/pubmed/19681358"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+                data-icon="external-link-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                  fill="currentColor"
+                />
+              </svg>
+              Available from nih.gov
+            </a>
+          </li>
+          <li>
+            Jack, Eric P., Powers, Thomas L., and Nowak, Martin C.; “A New Perspective on Supply and Demand”; The Association for Operations Management; 
+            <cite>
+              APICS Magazine
+            </cite>
+            ; 
+            <time
+              datetime="2005"
+            >
+              March, 2005
+            </time>
+            .
+          </li>
+          <li>
+            Interview: Rogers, Michelle; “Lessons Learned”; 
+            <cite>
+              HealthLeaders
+            </cite>
+            ; 
+            <time
+              datetime="2003"
+            >
+              June, 2003
+            </time>
+            ; Volume 6, Number 6.
+          </li>
+          <li>
+            Interview: Siwicki, Bill; “What's the CEO's Role?”; 
+            <cite>
+              Health Data Management
+            </cite>
+            ; 
+            <time
+              datetime="1999"
+            >
+              February, 1999
+            </time>
+            ; Volume 7, Number 2.
+          </li>
+          <li>
+            Interview: Siwicki, Bill; “Can Chief Security Officers Protect Data from Prying Eyes?”; 
+            <cite>
+              Health Data Management
+            </cite>
+            ; 
+            <time
+              datetime="1998"
+            >
+              October, 1998
+            </time>
+            ; Volume 6, Number 10.
+          </li>
+          <li>
+            Nowak, Martin C.; “Creating Patient-Focused Residents through Written Feedback”; 
+            <cite>
+              Improving and Maintaining Patient Satisfaction: Selected Best Practices
+            </cite>
+            ; University Health System Consortium, 
+            <time
+              datetime="1994"
+            >
+              July, 1994
+            </time>
+            .
+          </li>
+          <li>
+            Nowak, Martin C. and Middleton, Susan C.; “A Case of Innovation: The Sign Shop”, 
+            <cite>
+              Hospital Material Management Quarterly
+            </cite>
+            , 10(3),
+             
+            <time
+              datetime="1989"
+            >
+              1989
+            </time>
+            .
+          </li>
+          <li>
+            Marion, K.R. and M.C. Nowak. 
+            <time
+              datetime="1985"
+            >
+              1985
+            </time>
+            . A size record for the southern ringneck snake (Diadophis punctatus); Herpetological Review, 16(4): 111.
+            <br />
+            <a
+              href="https://ssarherps.org/herpetological-review-pdfs/#id-2198"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+                data-icon="external-link-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                  fill="currentColor"
+                />
+              </svg>
+              Available from ssarherps.org
+            </a>
+          </li>
+          <li>
+            Cox, W.A., M.C. Nowak and K.R. Marion. 
+            <time
+              datetime="1980"
+            >
+              1980
+            </time>
+            . Observations on courtship and mating behavior in the musk turtle, Sternotherus minor. Journal of Herpetology, 14(2): 200-204.
+            <br />
+            <a
+              href="https://www.jstor.org/stable/1563862?socuuid=404fec7d-7362-43e9-89ef-8e1d81283191"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+                data-icon="external-link-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                  fill="currentColor"
+                />
+              </svg>
+              Available from jstor.org
+            </a>
+          </li>
+          <li>
+            Marion, K.R. and M.C. Nowak. 
+            <time
+              datetime="1980"
+            >
+              1980
+            </time>
+            . One egg twins in a snake, Elaphe guttata guttata. Trans. Kans. Acad. Scie. 83(2): 98-100.
+            <br />
+            <a
+              href="https://www.jstor.org/stable/3627722?socuuid=6ca2d2e0-e706-48a6-ae7c-a830fad04939"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+                data-icon="external-link-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                  fill="currentColor"
+                />
+              </svg>
+              Available from jstor.org
+            </a>
+          </li>
+          <li>
+            Additional newspaper stories, trade journal articles, and quotations by Martin C. Nowak.
+            <br />
+            <a
+              href="https://www.google.com/search?q=%22martin+c.+nowak%22+%2B+uab"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+                data-icon="external-link-alt"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 576 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                  fill="currentColor"
+                />
+              </svg>
+              Google “Martin C. Nowak UAB”
+            </a>
+          </li>
+        </ol>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      id="section-publications"
+    >
+      <span
+        class="section-link"
+        id="publications"
+      />
+      <h2>
+        Publications
+      </h2>
+      <ol
+        class="publications-list"
+      >
+        <li>
+          Michael, Max and Nowak, Martin; “Fulfilling Historic Commitments and Obligations - A Proposal for a 21st Century Health System for Jefferson County, Alabama.”
+           
+          <time
+            datetime="2012"
+          >
+            Spring 2012
+          </time>
+          .
+          <br />
+          <a
+            href="http://media.al.com/bn/other/Michael-Nowak-report-0902-12.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+              data-icon="external-link-alt"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                fill="currentColor"
+              />
+            </svg>
+            Available from al.com
+          </a>
+        </li>
+        <li>
+          Nowak, Martin C.; “Practitioner Response”, in:
+          <br />
+          Landry, Amy and Landry, Robert J.; “Factors Associated with Hospital Bankruptcies: A Political and Economic Framework”; 
+          <cite>
+            Journal of Healthcare Management
+          </cite>
+          ; Volume 54, Number 4, 
+          <time
+            datetime="2009"
+          >
+            July / August, 2009
+          </time>
+          .
+          <br />
+          <a
+            href="https://www.ncbi.nlm.nih.gov/pubmed/19681358"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+              data-icon="external-link-alt"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                fill="currentColor"
+              />
+            </svg>
+            Available from nih.gov
+          </a>
+        </li>
+        <li>
+          Jack, Eric P., Powers, Thomas L., and Nowak, Martin C.; “A New Perspective on Supply and Demand”; The Association for Operations Management; 
+          <cite>
+            APICS Magazine
+          </cite>
+          ; 
+          <time
+            datetime="2005"
+          >
+            March, 2005
+          </time>
+          .
+        </li>
+        <li>
+          Interview: Rogers, Michelle; “Lessons Learned”; 
+          <cite>
+            HealthLeaders
+          </cite>
+          ; 
+          <time
+            datetime="2003"
+          >
+            June, 2003
+          </time>
+          ; Volume 6, Number 6.
+        </li>
+        <li>
+          Interview: Siwicki, Bill; “What's the CEO's Role?”; 
+          <cite>
+            Health Data Management
+          </cite>
+          ; 
+          <time
+            datetime="1999"
+          >
+            February, 1999
+          </time>
+          ; Volume 7, Number 2.
+        </li>
+        <li>
+          Interview: Siwicki, Bill; “Can Chief Security Officers Protect Data from Prying Eyes?”; 
+          <cite>
+            Health Data Management
+          </cite>
+          ; 
+          <time
+            datetime="1998"
+          >
+            October, 1998
+          </time>
+          ; Volume 6, Number 10.
+        </li>
+        <li>
+          Nowak, Martin C.; “Creating Patient-Focused Residents through Written Feedback”; 
+          <cite>
+            Improving and Maintaining Patient Satisfaction: Selected Best Practices
+          </cite>
+          ; University Health System Consortium, 
+          <time
+            datetime="1994"
+          >
+            July, 1994
+          </time>
+          .
+        </li>
+        <li>
+          Nowak, Martin C. and Middleton, Susan C.; “A Case of Innovation: The Sign Shop”, 
+          <cite>
+            Hospital Material Management Quarterly
+          </cite>
+          , 10(3),
+           
+          <time
+            datetime="1989"
+          >
+            1989
+          </time>
+          .
+        </li>
+        <li>
+          Marion, K.R. and M.C. Nowak. 
+          <time
+            datetime="1985"
+          >
+            1985
+          </time>
+          . A size record for the southern ringneck snake (Diadophis punctatus); Herpetological Review, 16(4): 111.
+          <br />
+          <a
+            href="https://ssarherps.org/herpetological-review-pdfs/#id-2198"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+              data-icon="external-link-alt"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                fill="currentColor"
+              />
+            </svg>
+            Available from ssarherps.org
+          </a>
+        </li>
+        <li>
+          Cox, W.A., M.C. Nowak and K.R. Marion. 
+          <time
+            datetime="1980"
+          >
+            1980
+          </time>
+          . Observations on courtship and mating behavior in the musk turtle, Sternotherus minor. Journal of Herpetology, 14(2): 200-204.
+          <br />
+          <a
+            href="https://www.jstor.org/stable/1563862?socuuid=404fec7d-7362-43e9-89ef-8e1d81283191"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+              data-icon="external-link-alt"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                fill="currentColor"
+              />
+            </svg>
+            Available from jstor.org
+          </a>
+        </li>
+        <li>
+          Marion, K.R. and M.C. Nowak. 
+          <time
+            datetime="1980"
+          >
+            1980
+          </time>
+          . One egg twins in a snake, Elaphe guttata guttata. Trans. Kans. Acad. Scie. 83(2): 98-100.
+          <br />
+          <a
+            href="https://www.jstor.org/stable/3627722?socuuid=6ca2d2e0-e706-48a6-ae7c-a830fad04939"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+              data-icon="external-link-alt"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                fill="currentColor"
+              />
+            </svg>
+            Available from jstor.org
+          </a>
+        </li>
+        <li>
+          Additional newspaper stories, trade journal articles, and quotations by Martin C. Nowak.
+          <br />
+          <a
+            href="https://www.google.com/search?q=%22martin+c.+nowak%22+%2B+uab"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-external-link-alt fa-w-18 icon-link"
+              data-icon="external-link-alt"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 576 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                fill="currentColor"
+              />
+            </svg>
+            Google “Martin C. Nowak UAB”
+          </a>
+        </li>
+      </ol>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

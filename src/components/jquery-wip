@@ -1,0 +1,379 @@
+original jquery code
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+
+altered jquery code
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        target.focus(); // Setting focus
+        if (target.is(":focus")){ // Checking if the target was focused
+          return false;
+        } else {
+          target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+          target.focus(); // Setting focus
+        };
+        return false;
+      }
+    }
+  });
+});
+
+done without hijacking browser behavior
+
+// URL updates and the element focus is maintained
+// originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
+// filter handling for a /dir/ OR /indexordefault.page
+function filterPath(string) {
+  return string
+    .replace(/^\//, '')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+    .replace(/\/$/, '');
+}
+
+var locationPath = filterPath(location.pathname);
+$('a[href*="#"]').each(function () {
+  var thisPath = filterPath(this.pathname) || locationPath;
+  var hash = this.hash;
+  if ($("#" + hash.replace(/#/, '')).length) {
+    if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
+      var $target = $(hash), target = this.hash;
+      if (target) {
+        $(this).click(function (event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: $target.offset().top}, 1000, function () {
+            location.hash = target;
+            $target.focus();
+            if ($target.is(":focus")){ //checking if the target was focused
+              return false;
+            }else{
+              $target.attr('tabindex','-1'); //Adding tabindex for elements not focusable
+              $target.focus(); //Setting focus
+            };
+          });
+        });
+      }
+    }
+  }
+});
+
+after vs code eslint auto changes
+
+// URL updates and the element focus is maintained
+// originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
+// filter handling for a /dir/ OR /indexordefault.page
+function filterPath(string) {
+  return string
+    .replace(/^\//, '')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+    .replace(/\/$/, '');
+}
+
+const locationPath = filterPath(location.pathname);
+$('a[href*="#"]').each(function() {
+  const thisPath = filterPath(this.pathname) || locationPath;
+  const hash = this.hash;
+  if ($(`#${hash.replace(/#/, '')}`).length) {
+    if (
+      locationPath == thisPath &&
+      (location.hostname == this.hostname || !this.hostname) &&
+      this.hash.replace(/#/, '')
+    ) {
+      const $target = $(hash);
+
+      const target = this.hash;
+      if (target) {
+        $(this).click(event => {
+          event.preventDefault();
+          $('html, body').animate(
+            { scrollTop: $target.offset().top },
+            1000,
+            () => {
+              location.hash = target;
+              $target.focus();
+              if ($target.is(':focus')) {
+                // checking if the target was focused
+                return false;
+              }
+              $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Setting focus
+            },
+          );
+        });
+      }
+    }
+  }
+});
+
+my edited version
+
+// URL updates and the element focus is maintained
+// originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
+// filter handling for a /dir/ OR /indexordefault.page
+function filterPath(string) {
+  return string
+    .replace(/^\//, '')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+    .replace(/\/$/, '');
+}
+
+const locationPath = filterPath(window.location.pathname);
+
+var elements = document.querySelectorAll('a[href*="#"]');
+Array.prototype.forEach.call(elements, function(el, i){
+  const myThisPath = filterPath(el.pathname) || locationPath;
+  console.log('my this path', myThisPath);
+});
+
+$('a[href*="#"]').each(function() {
+  const thisPath = filterPath(this.pathname) || locationPath;
+  console.log('thisPath', thisPath);
+
+  const hash = this.hash;
+  if ($(`#${hash.replace(/#/, '')}`).length) {
+    if (
+      locationPath == thisPath &&
+      (location.hostname == this.hostname || !this.hostname) &&
+      this.hash.replace(/#/, '')
+    ) {
+      const $target = $(hash);
+
+      const target = this.hash;
+      if (target) {
+        $(this).click(event => {
+          event.preventDefault();
+          $('html, body').animate(
+            { scrollTop: $target.offset().top },
+            1000,
+            () => {
+              window.location.hash = target;
+              $target.focus();
+              if ($target.is(':focus')) {
+                // checking if the target was focused
+                return false;
+              }
+              $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Setting focus
+            },
+          );
+        });
+      }
+    }
+  }
+});
+
+
+First Attempt:
+
+
+    // URL updates and the element focus is maintained
+    // originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
+    // filter handling for a /dir/ OR /indexordefault.page
+    function filterPath(string) {
+      return string
+        .replace(/^\//, '')
+        .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+        .replace(/\/$/, '');
+    }
+
+    function scrollTo(elementFrom, elementTo, duration) {
+      console.log('scrollTo');
+      if (duration < 0) return;
+      const difference = elementTo - elementFrom.scrollTop;
+      const perTick = (difference / duration) * 10;
+
+      setTimeout(() => {
+        elementFrom.scrollTop += perTick;
+        if (elementFrom.scrollTop === elementTo) return;
+        scrollTo(document.documentElement, elementTo, duration - 10);
+      }, 10);
+    }
+
+    const locationPath = filterPath(window.location.pathname);
+
+    const elements = document.querySelectorAll('a[href*="#"]');
+    Array.prototype.forEach.call(elements, el => {
+      const myThisPath = filterPath(el.pathname) || locationPath;
+      const myHash = el.hash;
+
+      if (document.querySelectorAll(`#${myHash.replace(/#/, '')}`).length) {
+        if (
+          locationPath === myThisPath &&
+          (window.location.hostname === el.hostname || !el.hostname) &&
+          el.hash.replace(/#/, '')
+        ) {
+          const $myTarget = document.querySelectorAll(myHash);
+
+          const myTarget = el.hash;
+          if (myTarget) {
+            el.onclick = event => {
+              event.preventDefault();
+              scrollTo(el, 0, 4000);
+              window.location.hash = myTarget;
+              console.log('$myTarget', $myTarget);
+              $myTarget[0].focus();
+              if ($myTarget[0] === document.activeElement) {
+                // checking if the target was focused
+                return false;
+              }
+              $myTarget[0].setAttribute('tabindex', '-1'); // Adding tabindex for elements not focusable
+              $myTarget[0].focus(); // Setting focus
+            };
+          }
+        }
+      }
+    });
+    /*
+
+   // URL updates and the element focus is maintained
+    // originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
+    // filter handling for a /dir/ OR /indexordefault.page
+    function filterPath(string) {
+      return string
+        .replace(/^\//, '')
+        .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+        .replace(/\/$/, '');
+    }
+
+    function scrollTo(element, to, duration) {
+      if (duration < 0) return;
+      const difference = to - element.scrollTop;
+      const perTick = (difference / duration) * 10;
+
+      setTimeout(() => {
+        element.scrollTop += perTick;
+        scrollTo(element, to, duration - 10);
+      }, 10);
+    }
+
+    $('a[href*="#"]').each(function() {
+      const thisPath = filterPath(this.pathname) || locationPath;
+
+      const hash = this.hash;
+
+      if ($(`#${hash.replace(/#/, '')}`).length) {
+        if (
+          locationPath == thisPath &&
+          (location.hostname == this.hostname || !this.hostname) &&
+          this.hash.replace(/#/, '')
+        ) {
+          const $target = $(hash);
+
+          const target = this.hash;
+          if (target) {
+            $(this).click(event => {
+              event.preventDefault();
+              $('html, body').animate(
+                { scrollTop: $target.offset().top },
+                1000,
+                () => {
+                  window.location.hash = target;
+                  $target.focus();
+                  if ($target.is(':focus')) {
+                    // checking if the target was focused
+                    return false;
+                  }
+                  $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Setting focus
+                },
+              );
+            });
+          }
+        }
+      }
+    });
+    */
+
+    --------
+
+// first add raf shim
+// http://www.paulirish.com/2011/requestanimationframe-for-smart-animating/
+window.requestAnimFrame = (function(){
+  return  window.requestAnimationFrame       ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame    ||
+          function( callback ){
+            window.setTimeout(callback, 1000 / 60);
+          };
+})();
+
+// main function
+function scrollToY(scrollTargetY, speed, easing) {
+    // scrollTargetY: the target scrollY property of the window
+    // speed: time in pixels per second
+    // easing: easing equation to use
+
+    var scrollY = window.scrollY || document.documentElement.scrollTop,
+        scrollTargetY = scrollTargetY || 0,
+        speed = speed || 2000,
+        easing = easing || 'easeOutSine',
+        currentTime = 0;
+
+    // min time .1, max time .8 seconds
+    var time = Math.max(.1, Math.min(Math.abs(scrollY - scrollTargetY) / speed, .8));
+
+    // easing equations from https://github.com/danro/easing-js/blob/master/easing.js
+    var easingEquations = {
+            easeOutSine: function (pos) {
+                return Math.sin(pos * (Math.PI / 2));
+            },
+            easeInOutSine: function (pos) {
+                return (-0.5 * (Math.cos(Math.PI * pos) - 1));
+            },
+            easeInOutQuint: function (pos) {
+                if ((pos /= 0.5) < 1) {
+                    return 0.5 * Math.pow(pos, 5);
+                }
+                return 0.5 * (Math.pow((pos - 2), 5) + 2);
+            }
+        };
+
+    // add animation loop
+    function tick() {
+        currentTime += 1 / 60;
+
+        var p = currentTime / time;
+        var t = easingEquations[easing](p);
+
+        if (p < 1) {
+            requestAnimFrame(tick);
+
+            window.scrollTo(0, scrollY + ((scrollTargetY - scrollY) * t));
+        } else {
+            console.log('scroll done');
+            window.scrollTo(0, scrollTargetY);
+        }
+    }
+
+    // call it once to get started
+    tick();
+}
+
+// scroll it!
+scrollToY(0, 1500, 'easeInOutQuint');
