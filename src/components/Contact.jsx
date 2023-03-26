@@ -48,7 +48,7 @@ const Contact = () => (
         id="form-contact"
         name="form-contact"
         method="POST"
-        data-netlify="true"
+        action="https://getform.io/f/e78dab96-9f67-4e06-ab7f-8fa66a35f14f"
       >
         <fieldset>
           <label htmlFor="name">
