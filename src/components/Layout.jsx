@@ -31,7 +31,7 @@ const Layout = ({ children }) => (
         >
           <meta
             name="description"
-            content="Nowak and Associates is a health care and business consulting firm.  Services include business development, strategic planning, and advice to law firms."
+            content="Nowak and Associates is a health care and business consulting firm. Services include business plans, personal MD and hospital selection, inventor advice, and expert to law firms."
           />
           <meta
             name="author"

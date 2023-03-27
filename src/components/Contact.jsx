@@ -50,6 +50,9 @@ const Contact = () => (
         method="POST"
         action="https://getform.io/f/e78dab96-9f67-4e06-ab7f-8fa66a35f14f"
       >
+
+        <input type="hidden" name="_state" style="display:none !important" />
+
         <fieldset>
           <label htmlFor="name">
             Name

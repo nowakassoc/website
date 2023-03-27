@@ -16,7 +16,7 @@ const Home = () => (
           className="home-portrait-mobile"
         />
         Nowak and Associates offers boutique operations and novel health 
-        delivery strategies for MDs and hospitals.  For patients, services 
+        delivery strategies for MDs and hospitals.  For individual clients, services 
         include personalized advice to individuals and families for selecting 
         best doctors and hospitals.  Nowak provides consultancy in a variety 
         of medical-legal circumstances including malpractice and class action, 
