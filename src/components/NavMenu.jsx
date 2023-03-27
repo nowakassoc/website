@@ -48,7 +48,7 @@ class NavMenu extends Component {
                 aria-label="Link to Home"
                 data-scroll
                 className="nav-item"
-                href="#home"
+                href="/#home"
               >
                 Home
               </a>
@@ -58,7 +58,7 @@ class NavMenu extends Component {
                 aria-label="Link to Services"
                 data-scroll
                 className="nav-item"
-                href="#services"
+                href="/#services"
               >
                 Services
               </a>
@@ -68,7 +68,7 @@ class NavMenu extends Component {
                 aria-label="Link to About"
                 data-scroll
                 className="nav-item"
-                href="#about"
+                href="/#about"
               >
                 About
               </a>
@@ -78,7 +78,7 @@ class NavMenu extends Component {
                 aria-label="Link to Publications"
                 data-scroll
                 className="nav-item"
-                href="#publications"
+                href="/#publications"
               >
                 Publications
               </a>
@@ -88,7 +88,7 @@ class NavMenu extends Component {
                 aria-label="Link to Contact"
                 data-scroll
                 className="nav-item"
-                href="#contact"
+                href="/#contact"
               >
                 Contact
               </a>
