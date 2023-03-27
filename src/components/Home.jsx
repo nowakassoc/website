@@ -15,13 +15,13 @@ const Home = () => (
           alt="Martin C. Nowak - Nowak and Associates"
           className="home-portrait-mobile"
         />
-        Nowak and Associates offers boutique operations and novel health 
-        delivery strategies for MDs and hospitals.  For individual clients, services 
-        include personalized advice to individuals and families for selecting 
-        best doctors and hospitals.  Nowak provides consultancy in a variety 
-        of medical-legal circumstances including malpractice and class action, 
-        both plaintiff and defense.  Services also include business plan development, 
-        investment proposal reviews, and inventor guidance.
+        Nowak and Associates offers experienced business operations and 
+        care delivery strategies for MDs and hospitals.  For individual clients, 
+        services include personalized advice to individuals and families for 
+        selecting best doctors and hospitals.  Nowak provides consultancy in 
+        a variety of medical-legal circumstances including malpractice and 
+        class action, both plaintiff and defense.  Services also include 
+        business plan development, investment proposal reviews, and inventor guidance.
         <br />
         <a
           aria-label="Contact Nowak and Associates"
